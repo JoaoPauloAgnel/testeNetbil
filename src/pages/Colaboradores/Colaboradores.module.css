@@ -1,0 +1,36 @@
+.colabs{
+  padding-block: 2.5rem;
+}
+
+.colabs h2{
+    text-align: center;
+}
+
+.lista {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+}
+
+.loader_circle {
+  margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid var(--primary);
+    border-top-color: var(--red);
+    animation: loader_circle 1s linear infinite;
+  }
+  
+  @keyframes loader_circle {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
